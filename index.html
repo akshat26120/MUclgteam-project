@@ -30,7 +30,7 @@
 
         <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
 
-            <div class="container" style="background-color: rgb(186, 74, 255);">
+            <div class="container" style="background-color: rgb(0, 47, 255);">
 
                 <div class="navbar-header">
                     <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -56,30 +56,50 @@
         </div>
     </section>
 
-    <section id="about" class="parallax-section" style="padding-top:65px;  padding-left:20px">
-        <div class="container">
-            <div class="row">
 
-                <div class="col-md-12 col-sm-12">
-                    <div class="about-thumb">
-                        <div class="wow fadeInUp section-title" data-wow-delay="0.4s">
-                            <h1 style="color: rgb(157, 0, 255);">Blogs</h1>
-                            <p class="color-yellow" style="color:rgb(157, 0, 255);">Website designing is my passion</p>
-                        </div>
-                        <div class="wow fadeInUp" data-wow-delay="0.8s">
-                            <p style="color: rgb(157, 0, 255);">If you want to get an attractive website design for your business, then you are probably looking for me, I can easily solve your problem.</p>
-                            <p style="color:rgb(157, 0, 255);">I have designed many websites and I have many options available for you, I can make your website as you want.</p>
-                        </div>
-                    </div>
-                </div>
+    <section class="parallax-section" style=" padding-top:95px; width:83.5em;">
+
+        <div class="preloader">
+            <div class="spinner">
+                <span class="spinner-rotate"></span>
             </div>
-
-
-
-
-
         </div>
-    </section>
+
+        <div>
+            <div style="margin-right:14px; ">
+
+                <div id="about" class="w3-content w3-section">
+                    <img class="mySlides" src="D:\MU pro\images\a.jpeg" style="width:100%; align:left;">
+                    <img class="mySlides" src="D:\MU pro\images\b.jpg" style="width:100%; ">
+                    <img class="mySlides" src="D:\MU pro\images\c.jpg" style="width:100%">
+
+                </div>
+
+                <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {
+                            myIndex = 1
+                        }
+                        x[myIndex - 1].style.display = "block";
+                        setTimeout(carousel, 4000);
+                    }
+                </script>
+            </div>
+        </div>
+
+
+
+
+
 
 </body>
 
@@ -89,11 +109,11 @@
 
 
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="js/jquery.js "></script>
+<script src="js/bootstrap.min.js "></script>
+<script src="js/jquery.parallax.js "></script>
+<script src="js/smoothscroll.js "></script>
+<script src="js/wow.min.js "></script>
+<script src="js/custom.js "></script>
 
 </html>

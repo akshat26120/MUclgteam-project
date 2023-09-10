@@ -628,16 +628,16 @@ footer {
    Mobile Responsive         
 -----------------------------------------*/
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 650px) {
     h1 {
-        font-size: 32px;
+        font-size: 42px;
     }
     h2 {
-        font-size: 28px;
+        font-size: 38px;
         line-height: inherit;
     }
     h3 {
-        font-size: 22px;
+        font-size: 32px;
         line-height: inherit;
     }
 }

@@ -340,14 +340,12 @@ a:focus {
     Home section              
 -----------------------------------------*/
 
-#home h1 {
-    padding-bottom: 18px;
-}
+#home h1 {}
 
 #home .home-img {
     background-size: cover;
-    background-position: 50% 50%;
-    width: 100%;
+    background-position: 100%;
+    width: 110%;
     height: 100vh;
 }
 
@@ -361,7 +359,7 @@ a:focus {
     -ms-flex-align: center;
     align-items: center;
     height: 100vh;
-    padding: 0 45px 0 45px;
+    padding: 0 0 0 0;
 }
 
 
@@ -630,7 +628,7 @@ footer {
    Mobile Responsive         
 -----------------------------------------*/
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 550px) {
     h1 {
         font-size: 32px;
     }

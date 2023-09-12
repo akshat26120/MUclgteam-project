@@ -295,7 +295,8 @@ a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #000000;
+    color: #b5b5b5;
+    transform: scale(1.2);
 }
 
 .custom-navbar .navbar-nav>li>a:hover,
@@ -380,7 +381,7 @@ a:focus {
 }
 
 #about .progress-bar-primary {
-    background: #232B2B;
+    background: #00ffff;
 }
 
 #about strong,
@@ -396,7 +397,7 @@ a:focus {
 -----------------------------------------*/
 
 #service {
-    background: #E9724C;
+    background: #5676f8;
 }
 
 #service p {
@@ -502,7 +503,7 @@ a:focus {
 -----------------------------------------*/
 
 #contact {
-    background: #E9724C;
+    background: #6483fd;
 }
 
 #contact .contact-form,
@@ -537,14 +538,18 @@ a:focus {
 #contact .form-control {
     background: transparent;
     border: none;
-    border-bottom: 1px solid #E3AE57;
+    border-bottom: 1px solid;
     border-radius: 0px;
     box-shadow: none;
     color: #ffffff;
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 25px;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+#contact .form-control:hover {
+    transform: scale(1.2);
 }
 
 #contact .form-control:focus {
@@ -601,7 +606,7 @@ footer {
 
 .social-icon li a {
     border: 2px solid transparent;
-    color: #999;
+    color: #ffffff;
     border-radius: 100px;
     cursor: pointer;
     font-size: 16px;
@@ -617,10 +622,10 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #E3AE57;
+    background: #5676f8;
     border-color: #ffffff;
     color: #ffffff;
-    transform: scale(1.1);
+    transform: scale(1.4);
 }
 
 

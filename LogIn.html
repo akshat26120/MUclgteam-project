@@ -151,6 +151,46 @@
                 text-align: center;
             }
         }
+        
+        @media only screen and (max-width: 767px) {
+            .custom-navbar .navbar-brand {
+                line-height: 18px;
+            }
+            #home .home-thumb {
+                height: auto;
+                padding-top: 32px;
+                padding-bottom: 12px;
+            }
+            #home .container,
+            #about .container,
+            #experience .container,
+            #service .container,
+            #education .container,
+            #contact .container {
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+            #about .col-md-3,
+            #experience .col-md-6,
+            #education .col-md-6,
+            #contact .col-md-3 {
+                padding: 0;
+                margin: 0;
+            }
+            .background-image {
+                position: relative;
+                min-height: 65vh;
+            }
+        }
+        
+        @media only screen and (max-width: 1024px) {
+            .section-title {
+                padding-bottom: 12px;
+            }
+            footer {
+                padding: 40px 0;
+            }
+        }
     </style>
 </head>
 

@@ -120,17 +120,20 @@
         
         .bottom-container {
             margin-left: 22em;
+            margin-top: 2em;
             background-color: #4a8044;
             border-radius: 3px;
+            text-decoration: none;
             border-color: #ffffff;
         }
         
         .bottom-container :hover {
             background-color: #0c7a00;
             border-color: #ffffff;
+            text-decoration: none;
             border-radius: 3px;
             transform: scale(1.2);
-            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.24);
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.20), 0 17px 50px 0 rgba(0, 0, 0, 0.20);
         }
         /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
         
@@ -195,7 +198,7 @@
 <body style="margin-top: 200PX; background-color:#8da4ff;">
 
 
-    <div class="container" style="background-color:#7792ff ;box-shadow: rgb(0, 0, 0) 2px 7px 10px, rgba(0, 0, 0, 0.23) 2px 7px 10px; ">
+    <div class="container" style="background-color:#7792ff ;box-shadow: rgb(38, 38, 38) 0px 5px 8px, rgb(38, 38, 38) 2px 7px 10px; ">
         <form action="/action_page.php">
             <div class="row">
                 <div class="vl">
@@ -224,11 +227,14 @@
                     <input type="password" name="password" placeholder="Password" required>
                     <input type="submit" value="Login">
                 </div>
+                <button class="bottom-container"><a href="signup.html" style="color:rgb(255, 255, 255);">Sign up</a></button>
 
+
+                <button class="bottom-container" style="margin-left:50em ;"> <a href=" # " style="color:rgb(255, 255, 255); ">Forgot password?</a></button>
             </div>
         </form>
     </div>
-    <div><br><br>
+    <!-- <div><br><br>
 
         <div>
 
@@ -238,7 +244,7 @@
             <button class="bottom-container" style="margin-left:50em ;"> <a href=" # " style="color:rgb(255, 255, 255); ">Forgot password?</a></button>
 
         </div>
-    </div>
+    </div> -->
 </body>
 
 </html>

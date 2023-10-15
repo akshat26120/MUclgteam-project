@@ -1,5 +1,4 @@
 body {
-    background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -86,7 +85,7 @@ p {
 }
 
 .section-btn:hover {
-    background: #E3AE57;
+    background: #5676f8;
     border-color: transparent;
     color: #ffffff;
 }

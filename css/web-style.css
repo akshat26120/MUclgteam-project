@@ -583,7 +583,12 @@ a:focus {
 -----------------------------------------*/
 
 footer {
-    padding: 140px 0px;
+    padding-top: 120PX;
+    padding-bottom: 120PX;
+}
+
+.sub-txt {
+    color: #b6c4ff;
 }
 
 
@@ -713,4 +718,18 @@ footer {
 
 .swip img:hover {
     margin-left: -300px;
+}
+
+.bg-text {
+    color: #b6c4ff;
+    font-weight: bold;
+    border: 3px solid #b6c4ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }

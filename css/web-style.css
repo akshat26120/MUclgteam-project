@@ -158,11 +158,11 @@ footer {
 }
 
 .color-yellow {
-    color: #E3AE57;
+    color: #000000;
 }
 
 .bg-yellow {
-    background: #E3AE57;
+    background: #000000;
 }
 
 .bg-white {
@@ -183,7 +183,7 @@ html {
 }
 
 a {
-    color: #E3AE57;
+    color: #000000;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -193,7 +193,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #E3AE57;
+    color: #000000;
     outline: none;
 }
 

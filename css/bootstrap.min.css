@@ -1715,7 +1715,7 @@ a.text-info:hover {
 }
 
 .text-warning {
-    color: #8a6d3b
+    color: #7792ff
 }
 
 a.text-warning:focus,
@@ -4019,7 +4019,7 @@ fieldset[disabled] .btn-info:hover {
 .open>.dropdown-toggle.btn-warning.focus,
 .open>.dropdown-toggle.btn-warning:focus,
 .open>.dropdown-toggle.btn-warning:hover {
-    color: #fff;
+    color: #7792ff;
     background-color: #d58512;
     border-color: #985f0d
 }

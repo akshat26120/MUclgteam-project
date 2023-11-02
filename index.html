@@ -21,12 +21,28 @@
 <body style="background-color: #7792ff;">
 
 
-    <div class=" preloader ">
+    <!-- <div class=" preloader ">
         <div class="spinner ">
             <span class="spinner-rotate "></span>
 
         </div>
+    </div> -->
+    <div class="preloader">
+        <div class="spinner"></div>
     </div>
+
+    <!-- Your website content -->
+    <div class="content">
+        <!-- Your website content goes here -->
+    </div>
+
+    <script>
+        // Simulating the removal of preloader after page loads
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.classList.add('hide-preloader');
+        });
+    </script>
 
 
     <div class=" navbar-fixed-top custom-navbar " style="background-color: #5676f8; ">
@@ -64,8 +80,8 @@
                     <div class="home-thumb" style="background-image:url('https://github.com/akshat26120/MUclgteam-project/blob/master/images/b.jpg?raw=true'); 
                     background-repeat: no-repeat;  background-attachment: fixed;  background-size: cover;    filter: blur(3px);   background-color: rgba(0,0,0, 0.4);"></div>
                     <div class="bg-text">
-                        <h2>Blurred Background</h2>
-                        <h1 style="font-size:50px">I am John Doe</h1>
+                        <h2>PetWell Labs</h2>
+                        <h1 style="font-size:45px;"><i>A website that helps to maintain your pet's health</i></h1>
 
                     </div>
                 </div>
@@ -84,7 +100,7 @@
                     <div class="wow fadeInUp footer-copyright " data-wow-delay="0.8s ">
                         <p style="color: #ffffff; ">Copyright &copy; 2023 EN22CA5030-20-23-08 | PetWell Labs</p>
                     </div>
-                    <ul class="wow fadeInUp social-icon " data-wow-delay="1s ">
+                    <ul class="wow fadeInUp social-icon " data-wow-delay="1s">
                         <li class="button ">
                             <a href="# " class="fa fa-facebook "></a>
                         </li>

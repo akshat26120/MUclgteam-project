@@ -825,6 +825,7 @@ footer {
 
 .animated-title {
     color: #7a95ffaf;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
     font-family: Roboto, Arial, sans-serif;
     height: 90vmin;
     left: 50%;

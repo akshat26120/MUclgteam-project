@@ -91,11 +91,3 @@ window.addEventListener('load', function() {
 /*-------------------------------------------------------------------------------
      wow js - Login  Animation js
    -------------------------------------------------------------------------------*/
-document.querySelector('.login-button').addEventListener('mouseenter', function() {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-
-    if (username.trim() === '' || password.trim() === '') {
-        this.style.animation = 'runAway 1s forwards';
-    }
-});

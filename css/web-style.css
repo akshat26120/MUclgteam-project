@@ -880,3 +880,44 @@ footer {
     top: 0;
     transform: translate(0, -100%);
 }
+
+
+/*---------------------------------------
+   slot info section         
+-----------------------------------------*/
+
+#sltifo {
+    width: 25em;
+    height: 14.5em;
+    border: none;
+    border-radius: 3px;
+    background-color: #6382ff;
+    box-shadow: rgba(0, 0, 0, 0.301) 1px 3px 4px, rgba(0, 0, 0, 0.23) 1px 3px 4px;
+    margin-top: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+#sltifo:hover {
+    background-color: #5073ff;
+    transition: 0.8s;
+    border-radius: 3px;
+    box-shadow: rgb(0, 0, 0) 1px 4px 5px, rgba(0, 0, 0, 0.23) 1px 4px 5px;
+}
+
+#sltif {
+    width: 20em;
+    height: 7em;
+    border: none;
+    border-radius: 3px;
+    background-color: #6382ff;
+    box-shadow: rgba(0, 0, 0, 0.301) 1px 3px 4px, rgba(0, 0, 0, 0.23) 1px 3px 4px;
+    margin-top: 2.5em;
+}
+
+#sltif:hover {
+    background-color: #5073ff;
+    transition: 0.8s;
+    border-radius: 3px;
+    box-shadow: rgb(0, 0, 0) 1px 4px 5px, rgba(0, 0, 0, 0.23) 1px 4px 5px;
+}

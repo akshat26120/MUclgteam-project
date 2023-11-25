@@ -792,7 +792,7 @@
         }
         
         .animated-title {
-            color: #7a95ffaf;
+            color: #FFE3BB;
             text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
             font-family: Roboto, Arial, sans-serif;
             height: 90vmin;
@@ -821,7 +821,7 @@
         }
         
         .animated-title>div.text-top {
-            border-bottom: 1vmin solid #0625a0a1;
+            border-bottom: 1vmin solid #3059ffaf;
             top: 0;
         }
         
@@ -834,7 +834,7 @@
         }
         
         .animated-title>div.text-top div span:first-child {
-            color: #b7c5ffaf;
+            color: #ffae33;
         }
         
         .animated-title>div.text-bottom {
@@ -883,19 +883,19 @@
             height: 14.5em;
             border: none;
             border-radius: 3px;
-            background-color: #6382ff;
-            box-shadow: rgba(0, 0, 0, 0.301) 1px 3px 4px, rgba(0, 0, 0, 0.23) 1px 3px 4px;
+            background-color: #5073ff;
+            box-shadow: rgb(0, 0, 0, 0.30) 0px 7px 8px, rgba(0, 0, 0, 0.30) 0px 7px 8px;
             margin-top: 2.5em;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 400 16px/1.555 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            -webkit-font-smoothing: antialiased;
             color: white;
-            /* transform: rotate(7deg); */
         }
         
         #sltifo:hover {
             background-color: #5073ff;
             transform: rotate(0deg);
             border-radius: 3px;
-            box-shadow: rgb(0, 0, 0) 1px 4px 5px, rgba(0, 0, 0, 0.23) 1px 4px 5px;
+            box-shadow: rgb(0, 0, 0, 0.30) 0px 7px 8px, rgba(0, 0, 0, 0.30) 0px 7px 7px;
             animation-name: falling;
             animation-duration: 4s;
             transform-origin: 50% 0%;
@@ -909,10 +909,11 @@
             height: 14.5em;
             border: none;
             border-radius: 3px;
-            background-color: #6382ff;
+            background-color: #5073ff;
             box-shadow: rgba(0, 0, 0, 0.301) 1px 3px 4px, rgba(0, 0, 0, 0.23) 1px 3px 4px;
             margin-top: 2.5em;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 400 16px/1.555 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            -webkit-font-smoothing: antialiased;
             color: white;
             transform: rotateX(20deg) rotateY(-2deg);
         }

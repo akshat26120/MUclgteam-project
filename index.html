@@ -12,109 +12,425 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/web-style.css">
+
     <title>petWell labs</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
-
-
+    <!-- <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+        
+        * {
+            box-sizing: 100%;
+        }
+        
+        img {
+            vertical-align: middle;
+            width: 100%;
+        }
+        /* Position the image container (needed to position the left and right arrows) */
+        
+        .container {
+            position: relative;
+        }
+        /* Hide the images by default */
+        
+        .mySlides {
+            display: none;
+        }
+        /* Add a pointer when hovering over the thumbnail images */
+        
+        .cursor {
+            cursor: pointer;
+        }
+        /* Next & previous buttons */
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+        /* Position the "next button" to the right */
+        
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        /* Number text (1/3 etc) */
+        
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+        /* Container for image text */
+        
+        .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px;
+            width: 120%;
+            color: white;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Six columns side by side */
+        
+        .column {
+            float: left;
+            width: 20%;
+        }
+        /* Add a transparency effect for thumnbail images */
+        
+        .demo {
+            opacity: 0.6;
+        }
+        
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+    </style> -->
 </head>
 
-<body>
+<body style="background-color: #7792ff;">
 
+
+
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Your website content -->
+    <div class="content">
+        <!-- Your website content goes here -->
+    </div>
+
+    <script>
+        <!-- Simulating the removal of preloader after page loads -->
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.classList.add('hide-preloader');
+        });
+    </script>
+
+
+    <div class=" navbar-fixed-top custom-navbar " style="background-color: #5676f8; ">
+
+
+
+        <div class="navbar-header ">
+            <button class="navbar-toggle " data-toggle="collapse " data-target=".navbar-collapse ">
+                        <span class="icon icon-bar "></span>
+                        <span class="icon icon-bar "></span>
+                        <span class="icon icon-bar "></span>
+                   </button>
+
+            <a href="# " class="navbar-brand " style="font-size: 35px; color: rgb(255, 255, 255); padding-left:70px ">PetWell Labs</a>
+        </div>
+
+        <div class="collapse navbar-collapse ">
+            <ul class="nav navbar-nav navbar-right ">
+                <li><a href="index.html " class="smoothScroll ">Home</a></li>
+                <li><a href="#blogs " class="smoothScroll ">Blogs</a></li>
+                <li><a href="register.html " class="smoothScroll ">Register</a></li>
+                <li><a href="about.html " class="smoothScroll ">About Us</a></li>
+                <li><a href="LogIn.html " class="smoothScroll " style="margin-right:25px "> Log In</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- swction changed -->
+    <section id="home" class="parallax-section">
+        <div class="container">
+            <div class="row">
+
+
+                <div>
+                    <div class="home-thumb" style="background-image:url('https://github.com/akshat26120/MUclgteam-project/blob/master/images/b.jpg?raw=true'); 
+                    background-repeat: no-repeat; border-color: #000;
+                    border-width: 10px; background-attachment: fixed;  background-size: cover;    filter: blur(3px);   "></div>
+                    <div class="bg-text">
+                        <div class="animated-title">
+                            <div class="text-top">
+                                <div>
+                                    <span>PetWell Labs...</span>
+                                    <span>Sollutions</span>
+                                </div>
+                            </div>
+                            <div class="text-bottom">
+                                <div>for your pet's health</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- swction changed -->
     <section>
 
-        <div class="preloader">
-            <div class="spinner">
-                <span class="spinner-rotate"></span>
+
+        <div class="container overflow-hidden" style="margin-left:11em; margin-top:1.5em; ">
+            <div class="row gy-5" style="column-gap: 50px;">
+                <a href="register.html" title="&#8377; 1999 - &#8377; 3999">
+                    <div class="col-sm-4  " id="sltifo">
+
+                        <div class="p-3 border bg-light" style="padding-top: 5px; font-size: 1.4em; color :#ffffff"><b>Complete Blood Count (CBC): </b></div>
+                        <p style="color: #ffffff;"> This test provides information about the different types of blood cells, including red blood cells, white blood cells, and platelets. It can help in diagnosing anemia, infections, and certain immune disorders. </p>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 1999 - &#8377; 3999</b></p> -->
+                    </div>
+                </a>
+                <a href="register.html" title="&#8377; 299 - &#8377; 799">
+                    <div class="col-sm-8 " id="sltifo" style="margin-right: 3.5em; margin-left:3.5em;">
+                        <div class="p-3 border bg-light" style="padding-top: 5px; font-size: 1.4em;"><b>Blood Chemistry Panel: </b></div>
+                        <p style="color: #ffffff;">This panel measures the levels of various substances in the blood, such as glucose, liver enzymes, kidney function indicators, and electrolytes.</p>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 299 - &#8377; 799</b></p> -->
+                    </div>
+                </a>
+                <a href="register.html" title="&#8377; 199 - &#8377; 999">
+                    <div class="col-sm-12  " id="sltifo">
+                        <div class="p-3 border bg-light" style="padding-top: 5px;  font-size: 1.4em;"><b>Urinalysis:</b></div>
+                        <p style="color: #ffffff;">This test analyzes a urine sample to evaluate kidney function, detect urinary tract infections, and identify other issues such as diabetes.</p><br>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 199 - &#8377; 999</b></p> -->
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        <div class="container overflow-hidden" style="margin-left:11em; ">
+            <div class="row gy-5">
+                <a href="register.html" title="&#8377; 299 - &#8377; 899">
+                    <div class="col-md-4" id="sltifo">
+                        <div class="p-3 border bg-light" style="padding-top: 5px;  font-size: 1.4em;"><b> Thyroid Function Tests:</b></div>
+                        <p style="color: #ffffff;">These tests assess the thyroid hormone levels in the blood and help diagnose conditions like hyperthyroidism or hypothyroidism.</p><br>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 299 - &#8377; 899</b></p> -->
+                    </div>
+                </a>
+                <a href="register.html" title="&#8377; 199 - &#8377; 349">
+                    <div class="col-md-8 " id="sltifo" style="margin-right: 3.5em; margin-left:3.5em">
+                        <div class="p-3 border bg-light" style="padding-top: 5px;  font-size: 1.4em;"><b>Fecal Examination:</b></div>
+                        <p style="color: #ffffff;"> Checking a pet's feces for parasites, bacteria, and other abnormalities is essential for diagnosing gastrointestinal issues. </p><br>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 199 - &#8377; 349</b></p> -->
+                    </div>
+                </a>
+                <a href="register.html" title="&#8377; 2999 - &#8377; 5999">
+                    <div class="col-md-12  " id="sltifo">
+                        <div class="p-3 border bg-light" style="padding-top: 5px; font-size: 1.4em;"><b>X-rays (Radiography):</b></div>
+                        <p style="color: #ffffff;">X-rays can be used to visualize internal structures, bones, and organs. They are commonly used for diagnosing fractures, identifying masses, and assessing the health of the heart and lungs.</p>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 2999 - &#8377; 5999</b></p> -->
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        <div class="container overflow-hidden" style="margin-left:11em;">
+            <div class="row gy-5">
+                <a href="register.html" title="&#8377; 999 - &#8377; 1299">
+                    <div class="col-md-4 col-sm-3" id="sltifo" href="registration.html">
+                        <div class="p-3 border bg-light" style="padding-top: 5px; font-size: 1.4em;"><b>Ultrasound: </b></div>
+                        <p style="color: #ffffff;">Ultrasound imaging allows for a more detailed examination of internal organs and structures. It is often used to examine the heart, liver, kidneys, and reproductive organs.</p>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 999 - &#8377; 1299</b>
+                        </p> -->
+                    </div>
+                </a>
+                <a href="register.html" title="&#8377; 199 - &#8377; 399">
+                    <div class="col-md-8 col-sm-7 " id="sltifo" style="margin-right: 3.5em; margin-left:3.5em">
+                        <div class="p-3 border bg-light " style="padding-top: 5px; font-size: 1.4em;"><b>Heartworm Test: </b></div>
+                        <p style="color: #ffffff;"> This blood test is specific to dogs and checks for the presence of heartworm disease, a potentially life-threatening condition transmitted by mosquitoes.</p>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 199 - &#8377; 399</b></i>
+                        </p> -->
+                    </div>
+                </a>
+                <a href="register.html" title="&#8377; 399 - &#8377; 999">
+                    <div class="col-md-12 col-sm-11 " id="sltifo">
+                        <div class="p-3 border bg-light " style="padding-top: 5px;  font-size: 1.4em;"><b>Cytology: </b></div>
+                        <p style="color: #ffffff;">This involves examining cells under a microscope, often obtained through fine needle aspirates or swabs. It can help diagnose skin conditions, tumors, and other abnormalities.</p>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 399 - &#8377; 999</b></p> -->
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        <div class="container overflow-hidden" style="margin-left:25em;">
+            <div class="row gy-5">
+                <a href="register.html" title="&#8377; 2499 - &#8377; 7999">
+                    <div class="col-md-4 col-sm-3" id="sltifo">
+                        <div class="p-3 border bg-light" style="padding-top: 5px; font-size: 1.4em;"><b>Allergy Testing: </b></div>
+                        <p style="color: #ffffff;">If a pet is suspected to have allergies, blood or skin tests may be conducted to identify specific allergens.</p><br>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 2499 - &#8377; 7999</b></p> -->
+                    </div>
+                </a>
+
+                <a href="register.html" title="&#8377; 799 - &#8377; 1499">
+                    <div class="col-md-8 col-sm-7 " id="sltifo" style="margin-right: 3.5em; margin-left:3.5em">
+                        <div class="p-3 border bg-light " style="padding-top: 5px; font-size: 1.4em;"><b>Coagulation Profile: </b></div>
+                        <p style="color: #ffffff;"> This test evaluates the blood's ability to clot and is often performed before surgery or if a bleeding disorder is suspected.</p><br>
+                        <!-- <p style="text-align: right; color:#ffffff  "><b>&#8377; 799 - &#8377; 1499</b></p> -->
+                    </div>
+                </a>
+
             </div>
         </div>
 
+    </section><br><br><br>
 
-        <div class=" navbar-fixed-top custom-navbar">
 
-            <div style="background-color: rgb(0, 47, 255);">
 
-                <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon icon-bar"></span>
-                        <span class="icon icon-bar"></span>
-                        <span class="icon icon-bar"></span>
-                   </button>
+    <div class="CSSgal">
 
-                    <a href="#" class="navbar-brand" style="font-size: 35px; color: rgb(255, 255, 255); padding-left:70px">PetWell Labs</a>
-                </div>
+        <!-- Don't wrap targets in parent -->
+        <s id="s1"></s>
+        <s id="s2"></s>
+        <s id="s3"></s>
+        <s id="s4"></s>
 
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home" class="smoothScroll">Home</a></li>
-                        <li><a href="#blogs" class="smoothScroll">Blogs</a></li>
-                        <li><a href="#registration" class="smoothScroll">Register</a></li>
-                        <li><a href="#about" class="smoothScroll">About Us</a></li>
-                        <li><a href="#contact" class="smoothScroll" style="margin-right:25px">Contact Us</a></li>
+        <div class="slider">
+            <div style="background:#5b8;">
+                <h2>PURE <b>CSS</b> SLIDESHOW</h2>
+                <p>Responsive Slideshow Gallery created using CSS only<br>by Roko</p>
+            </div>
+            <div style="background:#85b;">
+                <h2>Slide 2</h2>
+            </div>
+            <div style="background:#e95;">
+                <h2>Slide 3</h2>
+            </div>
+            <div style="background:#e59;">
+                <h2>Slide 4</h2>
+            </div>
+        </div>
+
+        <div class="prevNext">
+            <div>
+                <a href="#s4"></a>
+                <a href="#s2"></a>
+            </div>
+            <div>
+                <a href="#s1"></a>
+                <a href="#s3"></a>
+            </div>
+            <div>
+                <a href="#s2"></a>
+                <a href="#s4"></a>
+            </div>
+            <div>
+                <a href="#s3"></a>
+                <a href="#s1"></a>
+            </div>
+        </div>
+
+        <div class="bullets">
+            <a href="#s1">1</a>
+            <a href="#s2">2</a>
+            <a href="#s3">3</a>
+            <a href="#s4">4</a>
+        </div>
+
+    </div>
+
+    <!-- section changed -->
+    <footer>
+        <div class="container overflow-hidden" style="margin-left:12.25em;  ">
+            <div class="row gy-5" style="column-gap: 50px;">
+                <a href="register.html">
+                    <div class="col-sm-4  " id="sltif">
+
+                        <div class="p-3 border bg-light" style="padding-top: 5px; font-size: 1.4em; color :#ffffff"><i>HEALTH</i></div><br>
+                        <!-- <p style="color: #ffffff;" id="sltif"><i> This test provides information about the different types of blood cells, including red blood cells, white blood cells, and platelets. It can help in diagnosing anemia, infections, and certain immune disorders. </i></p> -->
+
+                    </div>
+                </a>
+                <a href="register.html">
+                    <div class="col-sm-8 " style="margin-right: 5em; margin-left:5em;" id="sltif">
+                        <div class="p-3 border bg-light" style="padding-top: 5px; font-size: 1.4em; color:#ffffff; "><i>DOCTORS</i></div><br>
+                        <!-- <p style="color: #ffffff;" id="sltif"><i> This panel measures the levels of various substances in the blood, such as glucose, liver enzymes, kidney function indicators, and electrolytes.</i></p> -->
+
+                    </div>
+                </a>
+                <a href="register.html">
+                    <div class="col-sm-12  " id="sltif">
+                        <div class="p-3 border bg-light" style="padding-top: 5px;  font-size: 1.4em; color:#ffffff"><i>HOSPITALIZATION</i></div><br>
+                        <!-- <p style="color: #ffffff;" id="sltif"><i>  This test analyzes a urine sample to evaluate kidney function, detect urinary tract infections, and identify other issues such as diabetes.</i></p><br> -->
+
+                    </div>
+                </a>
+                <a href="register.html">
+                    <div class="col-sm-8 " style=" margin-left:5em;" id="sltif">
+                        <div class="p-3 border bg-light" style="padding-top: 5px; font-size: 1.4em; color:#ffffff"><i>PATIENTS</i></div><br>
+                        <!-- <p style="color: #ffffff;" id="sltif"><i> This panel measures the levels of various substances in the blood, such as glucose, liver enzymes, kidney function indicators, and electrolytes.</i></p> -->
+
+                    </div>
+                </a>
+
+
+            </div>
+        </div><br><br><br>
+
+
+
+
+        <div class="container ">
+            <div class="row ">
+
+                <div class="col-md-12 col-sm-12 "><br>
+                    <div class="wow fadeInUp footer-copyright " data-wow-delay="0.8s "><br>
+                        <p style="color: #ffffff; ">Copyright &copy; 2023 EN22CA5030-20-23-08 | PetWell Labs</p>
+                    </div>
+                    <ul class="wow fadeInUp social-icon " data-wow-delay="1s ">
+                        <li class="button ">
+                            <a href="# " class="fa fa-facebook "></a>
+                        </li>
+                        <li>
+                            <a href="# " class="fa fa-twitter "></a>
+                        </li>
+                        <li>
+                            <a href="# " class="fa fa-google-plus "></a>
+                        </li>
+                        <li>
+                            <a href="# " class="fa fa-linkedin "></a>
+                        </li>
                     </ul>
                 </div>
 
             </div>
         </div>
-    </section>
-
-
-    <section style="padding-top:70px; width:115%;">
-
-        <div class=" preloader ">
-            <div class="spinner ">
-                <span class="spinner-rotate "></span>
-            </div>
-        </div>
-
-        <div>
-            <div>
-
-                <div>
-                    <img class="mySlides " src="https://github.com/akshat26120/MUclgteam-project/blob/master/images/a.jpeg?raw=true " width="1536" height="800" style="display: block;">
-                    <img class="mySlides " src="https://github.com/akshat26120/MUclgteam-project/blob/master/images/b.jpg?raw=true " width="1536" height="800" style="display: block;">
-                    <img class="mySlides " src="https://github.com/akshat26120/MUclgteam-project/blob/master/images/c.jpg?raw=true " width="1536" height="800" style="display: block;">
-
-                </div>
-
-                <script>
-                    var myIndex = 0;
-                    carousel();
-
-                    function carousel() {
-                        var i;
-                        var x = document.getElementsByClassName("mySlides ");
-                        for (i = 0; i < x.length; i++) {
-                            x[i].style.display = "none ";
-                        }
-                        myIndex++;
-                        if (myIndex > x.length) {
-                            myIndex = 1
-                        }
-                        x[myIndex - 1].style.display = "block ";
-                        setTimeout(carousel, 4500);
-                    }
-                </script>
-            </div>
-        </div>
-
-    </section>
-
-
-
-
+    </footer>
+    <script src="js/jquery.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/jquery.parallax.js "></script>
+    <script src="js/smoothscroll.js "></script>
+    <script src="js/wow.min.js "></script>
+    <script src="js/custom.js "></script>
 </body>
-
-
-
-
-
-
-
-<script src="js/jquery.js "></script>
-<script src="js/bootstrap.min.js "></script>
-<script src="js/jquery.parallax.js "></script>
-<script src="js/smoothscroll.js "></script>
-<script src="js/wow.min.js "></script>
-<script src="js/custom.js "></script>
 
 </html>

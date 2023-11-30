@@ -879,7 +879,7 @@
         } */
         
         #sltifo {
-            width: 23em;
+            width: 25em;
             height: 14.5em;
             border: none;
             border-radius: 3px;
@@ -943,8 +943,7 @@
         /*---------------------------------------
    slid show        
 -----------------------------------------*/
-        
-        * {
+        /* * {
             box-sizing: border-box;
             -webkit-box-sizing: border-box;
         }
@@ -961,24 +960,22 @@
         /*
 PURE RESPONSIVE CSS3 SLIDESHOW GALLERY by Roko C. buljan
 http://stackoverflow.com/a/34696029/383904
-*/
-        
+    
         .CSSgal {
             position: relative;
             overflow: hidden;
             height: 100%;
-            /* Or set a fixed height */
+            /* Or set a fixed height 
         }
-        /* SLIDER */
+        /* SLIDER 
         
         .CSSgal .slider {
             height: 100%;
-            width: 100%;
             white-space: nowrap;
             font-size: 0;
             transition: 0.8s;
         }
-        /* SLIDES */
+        /* SLIDES 
         
         .CSSgal .slider>* {
             font-size: 1rem;
@@ -990,7 +987,7 @@ http://stackoverflow.com/a/34696029/383904
             background: none 50% no-repeat;
             background-size: cover;
         }
-        /* PREV/NEXT, CONTAINERS & ANCHORS */
+        /* PREV/NEXT, CONTAINERS & ANCHORS 
         
         .CSSgal .prevNext {
             position: absolute;
@@ -1002,16 +999,16 @@ http://stackoverflow.com/a/34696029/383904
         
         .CSSgal .prevNext>div+div {
             visibility: hidden;
-            /* Hide all but first P/N container */
+            /* Hide all but first P/N container 
         }
         
         .CSSgal .prevNext a {
             background: #fff;
             position: absolute;
-            width: 100%;
-            height: 100%;
+            width: 60px;
+            height: 60px;
             line-height: 60px;
-            /* If you want to place numbers */
+            /* If you want to place numbers 
             text-align: center;
             opacity: 0.7;
             -webkit-transition: 0.3s;
@@ -1029,8 +1026,7 @@ http://stackoverflow.com/a/34696029/383904
             left: auto;
             right: 0;
         }
-        /* NAVIGATION */
-        
+        /* NAVIGATION 
         .CSSgal .bullets {
             position: absolute;
             z-index: 2;
@@ -1054,19 +1050,19 @@ http://stackoverflow.com/a/34696029/383904
         
         .CSSgal .bullets>a+a {
             background: rgba(255, 255, 255, 0.5);
-            /* Dim all but first */
+            /* Dim all but first 
         }
         
         .CSSgal .bullets>a:hover {
             background: rgba(255, 255, 255, 0.7) !important;
         }
-        /* NAVIGATION BUTTONS */
-        /* ALL: */
+        /* NAVIGATION BUTTONS 
+        /* ALL: 
         
         .CSSgal>s:target~.bullets>* {
             background: rgba(255, 255, 255, 0.5);
         }
-        /* ACTIVE */
+        /* ACTIVE 
         
         #s1:target~.bullets>*:nth-child(1) {
             background: rgba(255, 255, 255, 1);
@@ -1085,12 +1081,12 @@ http://stackoverflow.com/a/34696029/383904
         }
         /* More slides? Add here more rules */
         /* PREV/NEXT CONTAINERS VISIBILITY */
-        /* ALL: */
+        /* ALL: 
         
         .CSSgal>s:target~.prevNext>* {
             visibility: hidden;
         }
-        /* ACTIVE: */
+        /* ACTIVE: 
         
         #s1:target~.prevNext>*:nth-child(1) {
             visibility: visible;
@@ -1108,7 +1104,7 @@ http://stackoverflow.com/a/34696029/383904
             visibility: visible;
         }
         /* More slides? Add here more rules */
-        /* SLIDER ANIMATION POSITIONS */
+        /* SLIDER ANIMATION POSITIONS 
         
         #s1:target~.slider {
             transform: translateX( 0%);
@@ -1133,7 +1129,7 @@ http://stackoverflow.com/a/34696029/383904
         /* YOU'RE THE DESIGNER! 
    ____________________
    All above was mainly to get it working :)
-   CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+   CSSgal CUSTOM STYLES / OVERRIDES HERE: 
         
         .CSSgal {
             color: #fff;
@@ -1153,4 +1149,4 @@ http://stackoverflow.com/a/34696029/383904
             margin: 0 3px;
             color: rgba(0, 0, 0, 0.8);
             text-decoration: none;
-        }
+        } */

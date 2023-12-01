@@ -1290,3 +1290,45 @@ body {
 /*---------------------------------------
  animation for slider's front page       
 -----------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+
+.line-1 {
+    position: relative;
+    top: 30%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-20%);
+}
+
+
+/* Animation */
+
+.anim-typewriter {
+    animation: typewriter 10s steps(74) 1.8s 12 normal both, blinkTextCursor 500ms steps(74) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}

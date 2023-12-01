@@ -1100,7 +1100,7 @@ body {
 }
 
 .CSSgal .bullets>a:hover {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.7) !important;
 }
 
 
@@ -1284,4 +1284,32 @@ body {
     margin: 0 3px;
     color: rgba(0, 0, 0, 0.8);
     text-decoration: none;
+}
+
+
+/*---------------------------------------
+ animation for slider's front page       
+-----------------------------------------*/
+
+body {
+    font-family: 'tradegothiclt-bold', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    text-align: left;
+    padding-left: 2.5em;
+    text-transform: uppercase;
+}
+
+span {
+    border-right: .05em solid;
+    animation: caret 30s steps(1) infinite;
+}
+
+@keyframes caret {
+    90% {
+        border-color: transparent;
+    }
 }

@@ -1025,8 +1025,6 @@ body {
     font-size: 2rem;
     display: inline-block;
     white-space: nowrap;
-    height: 91.5%;
-    margin-top: 72px;
     width: 100%;
     background: none 50% no-repeat;
     background-size: cover;
@@ -1297,13 +1295,12 @@ body {
 
 .line-1 {
     position: relative;
-    top: 35%;
+    top: -45%;
     width: 24em;
     margin: 0 auto;
     line-height: 2.5em;
     border-right: 2px solid rgba(255, 255, 255, .75);
     font-size: 210%;
-    height: 80px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;

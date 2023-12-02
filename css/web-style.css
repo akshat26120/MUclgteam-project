@@ -970,7 +970,8 @@ footer {
     border: none;
     border-radius: 3px;
     margin-top: 2.5em;
-    font-family: cursive;
+    font-family: 400 16px/1.555 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
     color: rgba(255, 255, 255, 0.29);
 }
 

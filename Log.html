@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Pathology Lab - Login</title>
+    <link rel="stylesheet" href="css/web-style.css">
+</head>
+
+<body class="log" style="background-color: #71a1f8; ">
+    <div class="container">
+        <form action="login.php" method="POST">
+            <h2 style="text-align: center; font-size: 2.5em; padding-top: 6em;"><b>Login</b></h2>
+            <label style=" color: white;
+            font-size: 27px;
+            padding-top: 9em;
+            padding-left:22em;" for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="password" style=" color: white;
+            font-size: 27px;
+            padding-top: 9em;
+            padding-left:22em;">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+            <br>
+
+            <button type="submit" style="color: rgb(255, 255, 255);
+             background-color: rgb(77, 211, 77);
+            border: none;
+            height: 35px;
+            width: 70px;
+            margin-left:53em;
+            border-radius: 3px;">Login</button>
+        </form>
+    </div>
+</body>
+<!-- <?php
+// Include your database connection code here
+include("db_connectivity.php");
+
+session_start();
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST["username"];
+    $password = $_POST["password"];
+
+    // Validate user input (add more validation as needed)
+    // Hash the password (assuming password_hash was used during registration)
+    // Compare the hashed password with the stored hashed password in the database
+    $stmt = $conn->prepare("SELECT UserID, Password, UserType FROM User WHERE Username = ?");
+    $stmt->bind_param("s", $username);
+    $stmt->execute();
+    $stmt->bind_result($userID, $hashedPassword, $userType);
+
+    if ($stmt->fetch() && password_verify($password, $hashedPassword)) {
+        // Authentication successful
+
+        // Store user information in the session for later use
+        $_SESSION["userID"] = $userID;
+        $_SESSION["userType"] = $userType;
+
+        // Redirect to a dashboard or homepage based on user type
+        if ($userType == "petOwner") {
+            header("Location: pet_owner_dashboard.php");
+        } elseif ($userType == "pathologist") {
+            header("Location: pathologist_dashboard.php");
+        } else {
+            // Handle other user types
+        }
+    } else {
+        // Authentication failed
+        echo "Invalid username or password";
+    }
+
+    $stmt->close();
+}
+
+// Close the database connection
+$conn->close();
+?> -->
+
+</html>
